@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS exercises</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+    </style>
+</head>
+<body>
+    <div class="challenge1">
+        <div class="ageInDay">
+            <h1>Challenge 1: Your Age in Days</h1>
+            <div class="ageInDay__buttons">
+                <button id="clickMe" onclick="ageInDays()">Click Me</button>
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="result">
+            <div id="ageResult"></div>
+        </div>
+    </div>
+
+    <div class="challenge2">
+        <div class="catGen">
+            <h1>Challege 2: Cat Generator</h1>
+            <div class="ageInDay__buttons">
+                <button id="catGenButton" onclick="catGen()">Call the Cats</button>
+                <button id="catClearButton" onclick="catClear()">Remove</button>
+            </div>
+            
+            <div class="cats" id="catDiv">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -26,20 +26,24 @@ body{
 }
 
 #clickMe{
-    padding: .7em 2.6em;
+    padding: 1em 2.6em;
     font-size: 1.1em;
     outline:none;
     background-color: coral;
+    border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
     color: white;
     border: none;
 }
 
+
+
 #reset{
-    padding: .7em 2.6em;
+    padding: 1em 2.6em;
     cursor: pointer;
     font-size: 1.1em;
+    border-radius: 10px;
     outline:none;
     background-color: teal;
     font-weight: bold;
@@ -48,38 +52,117 @@ body{
 }
 
 
-#catGenButton{
-    padding: .7em 2.6em;
+#clickMe:hover{
+    padding: .7em 3em;
+    transition:  .5s all ease-in-out;
+    font-size: 1.1em;
+    outline:none;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+
+#reset:hover{
+    padding: .7em 3em;
+    transition:  .5s all ease-in-out;
+    font-size: 1.1em;
+    outline:none;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+
+#gifGenButton{
+    padding: 1em 2.6em;
     cursor: pointer;
     font-size: 1.1em;
     outline:none;
     background-color: crimson;
     font-weight: bold;
     color: white;
+    border-radius: 10px;
     border: none;
 }
 
-#catClearButton{
+
+#gifGenButton:hover{
+    padding: 1em 3em;
+    font-size: 1.1em;
+    transition:  .5s all ease-in-out;
+    outline:none;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+#clearButton{
     padding: .7em 2.6em;
     cursor: pointer;
     font-size: 1.1em;
     outline:none;
     background-color: goldenrod;
     font-weight: bold;
+    border-radius: 10px;
     color: white;
     border: none;
 }
 
-
-.cats{
+#clearButton:hover{
+    padding: .7em 3em;
+    transition:  .5s all ease-in-out;
+    font-size: 1.1em;
+    outline:none;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.gifs{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin:0 auto;
+    margin-top: 3em;
     width: 70%;
 }
 
-.cats img{
+.gifs img{
     padding: 1em;
-    width: 30%;
+    width: 25%;
+}
+
+h2{
+    font-weight: 400;
+}
+
+.rps-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+    place-items: center;
+    margin-top:3em;
+    margin-bottom: 3em;
+}
+
+.rps-icons img{
+    display: block;
+    padding: 1em;
+    margin-bottom: 3em;
+    cursor: pointer;
+}
+
+.rps-icons img:hover{
+    transition: .2s all ease-in-out;
+    padding: .5em;
 }
